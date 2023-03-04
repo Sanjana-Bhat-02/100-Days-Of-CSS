@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+  background: rgb(114,26,133);
+  background: linear-gradient(45deg, rgba(114,26,133,1) 0%, rgba(43,7,96,1) 51%, rgba(34,34,34,1) 100%);
+  overflow: hidden;
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -10px;
+
+}
+  
+.one-head {
+	position: absolute;
+	z-index: 100;
+	top: -4px;
+	left: -17px;
+	height: 35px;
+	width: 20px;
+	background: #fff;
+	border-radius:3px;
+    transform: rotate(50deg);
+	box-shadow: 0 0 13px 0 rgba(0,0,0,0.2)
+
+}
+
+.one-body {
+	position: absolute;
+	z-index: 100;
+	background: #fff;
+	top: -7px;
+    left: -3px;
+	height: 75px;
+	width: 20px;
+	border-radius:3px;
+	box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+    margin-right: -10px;
+}
+
+.first-zero, .second-zero {
+    border: 20px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: -10px;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.second-line {
+    color: white;
+    font-size: 70px;
+    font-weight: 520;
+    margin: -10px;
+}
+
+.third-line {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+  
+
